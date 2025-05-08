@@ -1,0 +1,14 @@
+body {
+    font-family: "Comic Sans MS";
+}
+footer {
+    img {
+        width: 32px;
+    }
+}
+
+.introducao {
+    img {
+        width: 128px;
+    }
+}
