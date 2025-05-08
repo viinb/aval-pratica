@@ -7,7 +7,92 @@
         <link rel="stylesheet" href="../css/estilo.css" />
     </head>
     <body>
+        <h2>Formulário</h2>
+
+        <form class="introdução">
+            <fieldset>
+                <legend>Dados pessoais</legend>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" /><br />
+
+                <label for="endereço">Endereço:</label>
+                <input type="text" id="endereço" name="endereço" /><br />
+
+                <label for="cidade">Cidade:</label>
+                <input type="text" id="cidade" name="cidade" /><br />
+
+                <label for="estado">Estado:</label>
+                <select name="" id="">
+                    <option value="sp">SP</option>
+                    <option value="sc">SC</option>
+                    <option value="br">BR</option>
+                    <option value="rj">RJ</option>
+                </select>
+            </fieldset>
+
+            <fieldset>
+                <div></div>
+                <legend>Dados profissionais</legend>
+                <label for="">Natureza do Cargo:</label>
+                <input
+                    type="radio"
+                    name="natureza"
+                    id="gerencia"
+                    value="gerencia"
+                />
+                <label for="gerencia">Gerência</label>
+                <input
+                    type="radio"
+                    name="natureza"
+                    id="financeiro"
+                    value="financeiro"
+                />
+                <label for="financeiro">Financeiro</label>
+                <input
+                    type="radio"
+                    name="natureza"
+                    id="recepcao"
+                    value="recepcao"
+                />
+                <label for="recepcao">Recepção</label>
+                <input
+                    type="radio"
+                    name="natureza"
+                    id="admin"
+                    value="admin"
+                />
+                <label for="admin">Administração</label>
+                <input
+                    type="radio"
+                    name="natureza"
+                    id="juridico"
+                    value="juridico"
+                />
+                <label for="juridico">Juridico</label>
+                <br />
+                <label for="">Área de interesse:</label><br />
+                <label for="compu">Computação</label>
+                <input type="checkbox" id="compu">
+                <label for="bio">Biologia</label>
+                <input type="checkbox" id="bio">
+                <label for="amb">Meio Ambiente</label>
+                <input type="checkbox" id="amb">
+                <label for="eng">Engenharia</label>
+                <input type="checkbox" id="eng">
+                <label for="his">História</label>
+                <input type="checkbox" id="his"> <br>
+
+                <label for="curriculo">Mini-curriculo:</label><br />
+            
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+            </fieldset>
+        </form>
+
         <hr />
+
+        <button type="button">Enviar</button>
+        <button type="reset">Limpar</button>
+
         <center>
             <form action="../index.html">
                 <input type="submit" value="Voltar" />

@@ -3,7 +3,8 @@ body {
     background-image: url('/img/hank.png');
 }
 
-h1, h2 {
+h1,
+h2 {
     color: red;
     text-align: center;
 }
@@ -15,6 +16,7 @@ footer {
 }
 
 .introdução {
+    padding: 8px;
     border-radius: 1px;
     border-style: dotted;
 }
